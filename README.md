@@ -11,32 +11,22 @@ The gradient descent algorithm aims to find the lowest point on the surface by t
   <img width="500" alt="sgd2" src="https://user-images.githubusercontent.com/52889449/121677065-129fed80-cabe-11eb-84c8-d80fac6dbc21.png"> 
 </p>
 
-In each step, the slope of the next point is calculated, this process is continued until the result found is close to the given threshold. While calculating the next step for each point, the formula step size = gradient * learning rate is applied. Thus, the size of the step can be controlled according to the learning rate and it prevents the problems caused by too large or too small steps as in the image.
-
-<p align="center"> 
-
-<img width="1376" alt="Ekran Resmi 2021-06-11 14 31 14" src="https://user-images.githubusercontent.com/52889449/121680017-b63ecd00-cac1-11eb-9f62-78217e682c1c.png">
-
-</p>
-
-While calculating the new parameter, the formula new = old - step size is followed so that the algorithm can progress. 
+In each step, the slope of the next point is calculated, this process is continued until the result found is close to the given threshold. Also, the algorithm follows the formula for new parameter by new = old - step size so that the algorithm can progress. 
 
 <p align="center"> 
   <img width="500" alt="sgd" src="https://user-images.githubusercontent.com/52889449/121677051-0d42a300-cabe-11eb-885f-a61f87828551.png"> 
 </p>
 
-The lowest point I mentioned is called the global minimum. It may not always be possible to find the lowest point (global minimum) in gradient descent algorithms.
+While calculating the next step for each point, the formula step size = gradient * learning rate is applied. Thus, the size of the step can be controlled according to the learning rate and it prevents the problems caused by too large or too small steps as in the image.
+
+<p align="center"> 
+<img width="1376" alt="Ekran Resmi 2021-06-11 14 31 14" src="https://user-images.githubusercontent.com/52889449/121680017-b63ecd00-cac1-11eb-9f62-78217e682c1c.png">
+</p>
+
+The lowest point I mentioned is called the global minimum and other lower points are called local minimum as you can see in the figure. It may not always be possible to find the lowest point (global minimum) in gradient descent algorithms.
 
 <p align="center"> 
 <img width="500" alt="Ekran Resmi 2021-06-11 14 23 22" src="https://user-images.githubusercontent.com/52889449/121679075-a1156e80-cac0-11eb-9911-3951aef16a1f.png">
-</p>
-
-
-# Loss Function
-
-<p align="center"> 
-
-
 </p>
 
 
