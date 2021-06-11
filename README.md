@@ -2,21 +2,43 @@
 
 This program performs linear regression with one variable using a stochastic gradient descent algorithm which fits a line to a given dataset. The equation y = mx + n is used to find the best fitting linear function, and m and n parameters in this function are found by gradient descent. When linear regression is with one variable, a method called analytical solution can be applied instead of gradient descent. In this program, accuracy is measured by comparing the results of stochastic gradient descent and analytical solution.
 
-# Analytical Solution
-
-ff
 
 # Stochastic Gradient Descent
 
+The gradient descent algorithm aims to find the lowest point on the surface by taking the slopes of the points. In the stochastic gradient descent algorithm, starting from a random point, the lowest point is tried to be found.
+
+<p align="center"> 
+  <img width="500" alt="sgd2" src="https://user-images.githubusercontent.com/52889449/121677065-129fed80-cabe-11eb-84c8-d80fac6dbc21.png"> 
+</p>
+
+In each step, the slope of the next point is calculated, this process is continued until the result found is close to the given threshold. While calculating the next step for each point, the formula step size = gradient * learning rate is applied. Thus, the size of the step can be controlled according to the learning rate and it prevents the problems caused by too large or too small steps as in the image.
+
+<p align="center"> 
+![lr1](https://user-images.githubusercontent.com/52889449/121679468-049f9c00-cac1-11eb-8da7-073fac17ba56.png)
+</p>
+
+While calculating the new parameter, the formula new = old - step size is followed so that the algorithm can progress. 
 
 <p align="center"> 
   <img width="500" alt="sgd" src="https://user-images.githubusercontent.com/52889449/121677051-0d42a300-cabe-11eb-885f-a61f87828551.png"> 
-  <img width="500" alt="sgd2" src="https://user-images.githubusercontent.com/52889449/121677065-129fed80-cabe-11eb-84c8-d80fac6dbc21.png"> 
 </p>
 
 
 
-# Outputs of given dataset with different learning rates
+<p align="center"> 
+<img width="443" alt="Ekran Resmi 2021-06-11 14 23 22" src="https://user-images.githubusercontent.com/52889449/121679075-a1156e80-cac0-11eb-9911-3951aef16a1f.png">
+</p>
+
+
+
+# Loss Function
+
+<p align="center"> 
+  <img width="500" alt="sgd2" src="https://user-images.githubusercontent.com/52889449/121677065-129fed80-cabe-11eb-84c8-d80fac6dbc21.png"> 
+</p>
+
+
+# Outputs of given dataset with different Learning Rates
 
 Learning Rate = 0.001
 
