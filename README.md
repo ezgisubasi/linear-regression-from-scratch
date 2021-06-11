@@ -10,8 +10,8 @@ ff
 
 
 <p align="center"> 
-  <img width="538" alt="sgd" src="https://user-images.githubusercontent.com/52889449/121677051-0d42a300-cabe-11eb-885f-a61f87828551.png"> 
-  <img width="538" alt="sgd2" src="https://user-images.githubusercontent.com/52889449/121677065-129fed80-cabe-11eb-84c8-d80fac6dbc21.png"> 
+  <img width="500" alt="sgd" src="https://user-images.githubusercontent.com/52889449/121677051-0d42a300-cabe-11eb-885f-a61f87828551.png"> 
+  <img width="500" alt="sgd2" src="https://user-images.githubusercontent.com/52889449/121677065-129fed80-cabe-11eb-84c8-d80fac6dbc21.png"> 
 </p>
 
 
