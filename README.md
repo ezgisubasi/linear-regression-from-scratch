@@ -14,7 +14,9 @@ The gradient descent algorithm aims to find the lowest point on the surface by t
 In each step, the slope of the next point is calculated, this process is continued until the result found is close to the given threshold. While calculating the next step for each point, the formula step size = gradient * learning rate is applied. Thus, the size of the step can be controlled according to the learning rate and it prevents the problems caused by too large or too small steps as in the image.
 
 <p align="center"> 
- <img width="500" alt="lr" src="https://user-images.githubusercontent.com/52889449/121679647-3ca6df00-cac1-11eb-8640-fc83db52ce77.png">
+
+<img width="1376" alt="Ekran Resmi 2021-06-11 14 31 14" src="https://user-images.githubusercontent.com/52889449/121680017-b63ecd00-cac1-11eb-9f62-78217e682c1c.png">
+
 </p>
 
 While calculating the new parameter, the formula new = old - step size is followed so that the algorithm can progress. 
@@ -22,7 +24,6 @@ While calculating the new parameter, the formula new = old - step size is follow
 <p align="center"> 
   <img width="500" alt="sgd" src="https://user-images.githubusercontent.com/52889449/121677051-0d42a300-cabe-11eb-885f-a61f87828551.png"> 
 </p>
-
 
 The lowest point I mentioned is called the global minimum. It may not always be possible to find the lowest point (global minimum) in gradient descent algorithms.
 
