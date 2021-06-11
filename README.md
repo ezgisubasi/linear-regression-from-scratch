@@ -32,6 +32,8 @@ The lowest point I mentioned is called the global minimum and other lower points
 
 # Outputs of given dataset with different Learning Rates
 
+Estimated line using the gradient descent (black line) and the analytical solution (grey thicker line).
+
 Learning Rate = 0.001
 
 <p align="center">
